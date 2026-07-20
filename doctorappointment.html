@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Doctor Appointment</h1>
+        <p>Welcome to the Doctor Appointment page!</p>
+        <h2>Book an Appointment</h2>
+        <form>
+            <h3>Patient Information</h3>
+            Name: <input type="text" name="name"><br><br>
+            Date of Birth: <input type="date" name="dob"><br><br>
+            Age: <input type="number" name="age"><br><br>
+            Gender: <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+            Height(cm): <input type="number" name="height"><br><br>
+            Weight(kg): <input type="number" name="weight"><br><br>
+            Blood Group:<select name="bloodgroup">
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select><br><br>
+            
+            Contact Number: <input type="tel" name="contact"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Address: <textarea name="address" placeholder="Enter your address"></textarea><br><br>
+           
+
+            <h3>Appointment Details</h3>
+            Preferred Date: <input type="date" name="preferreddate"><br><br>
+            Preferred Time: <input type="time" name="preferredtime"><br><br>
+            Doctor's Name: <input type="text" name="doctorname"><br><br>
+            Reason for Appointment: <textarea name="reason" placeholder="Enter the reason for the appointment"></textarea><br><br>
+            Have You Visited Before: <input type="radio" name="visitedbefore" value="yes">Yes
+                                 <input type="radio" name="visitedbefore" value="no">No<br><br>
+            Medical Details: <textarea name="medicaldetails" placeholder="Enter any relevant medical details"></textarea><br><br>
+            <input type="submit" value="Book Appointment">
+            <input type="reset" value="Reset Form">
+        </form>
+    </body>
+</html>
