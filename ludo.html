@@ -1,29 +1,431 @@
 <html>
-  <head>
-    <style>
-      #outer{
-        width: 1500px;
-        height: 1500px;
-        background-color: aqua;
-        border: 5px solid black;
-        float: left;
-      }
-
-    </style>
-  </head>
-  <body>
-    <div id="outer">
-      <div id="r1">
-
-      </div>
-      <div id="r2"></div>
-      <div id="r3"></div>
-      <div id="r4"></div>
-      <div id="r5"></div>
-      <div id="r6"></div>
-      <div id="r7"></div>
-      <div id="r8"></div>
-      <div id="r9"></div>
-    </div>
-  </body>
+<head>
+<style>
+#outer{
+width:600px;
+height:600px;
+background-color:black;
+float:left;
+border:2px solid black;
+box-sizing:border-box;
+}
+#r0,#r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8,#r9,#r10,#r11,#r12,#r13,#r14{
+width:600px;
+height:40px;
+float:left;
+}
+#r0c0,#r0c1,#r0c2,#r0c3,#r0c4,#r0c5,#r1c0,#r1c5,#r2c0,#r2c5,#r3c0,#r3c5,#r4c0,#r4c5,#r5c0,#r5c1,#r5c2,#r5c3,#r5c4,#r5c5{
+width:38px;
+height:38px;
+background-color:red;
+border:1px solid black;
+float:left;
+}
+#r0c6,#r0c8,#r1c8,#r2c6,#r2c8,#r3c6,#r3c8,#r4c6,#r4c8,#r5c6,#r5c8,#r6c0,#r6c1,#r6c2,#r6c3,#r6c4,#r6c5,#r6c9,#r6c10,#r6c11,#r6c12,#r6c14,#r8c0,#r8c2,#r8c3,#r8c4,#r8c5,#r8c9,#r8c10,#r8c11,#r8c12,#r8c13,#r8c14,#r9c6,#r9c8,#r10c6,#r10c8,#r11c6,#r11c8,#r12c6,#r12c8,#r13c6,#r14c6,#r14c8{
+width:38px;
+height:38px;
+background-color:white;
+border:1px solid black;
+float:left;
+}
+#r8c13{
+  width:38px;
+height:38px;
+background-color:yellow;
+border:1px solid black;
+float:left;
+}
+#r13c6{
+  width:38px;
+height:38px;
+background-color:blue;
+border:1px solid black;
+float:left;
+}
+#r0c7,#r1c7,#r2c7,#r3c7,#r4c7,#r5c7{
+width:38px;
+height:38px;
+background-color:green;
+border:1px solid black;
+float:left;
+}
+#r0c9,#r0c10,#r0c11,#r0c12,#r0c13,#r0c14,#r1c9,#r1c14,#r2c9,#r2c14,#r3c9,#r3c14,#r4c9,#r4c14,#r5c9,#r5c10,#r5c11,#r5c12,#r5c13,#r5c14{
+width:38px;
+height:38px;
+background-color:green;
+border:1px solid black;
+float:left;
+}
+#r1c1,#r1c2,#r1c3,#r1c4,#r1c10,#r1c11,#r1c12,#r1c13,#r2c1,#r2c2,#r2c3,#r2c4,#r2c10,#r2c11,#r2c12,#r2c13,#r3c1,#r3c2,#r3c3,#r3c4,#r3c10,#r3c11,#r3c12,#r3c13,#r4c1,#r4c2,#r4c3,#r4c4,#r4c10,#r4c11,#r4c12,#r4c13,#r10c1,#r10c2,#r10c3,#r10c4,#r10c10,#r10c11,#r10c12,#r10c13,#r11c1,#r11c2,#r11c3,#r11c4,#r11c10,#r11c11,#r11c12,#r11c13,#r12c1,#r12c2,#r12c3,#r12c4,#r12c10,#r12c11,#r12c12,#r12c13,#r13c1,#r13c2,#r13c3,#r13c4,#r13c10,#r13c11,#r13c12,#r13c13{
+width:38px;
+height:38px;
+background-color:white;
+border:1px solid black;
+float:left;
+}
+#r1c6,#r6c13,#r8c1,#r13c8{
+width:38px;
+height:38px;
+background-color:white;
+border:1px solid black;
+float:left;
+}
+#r6c6,#r6c7,#r6c8,#r7c6,#r7c7,#r7c8,#r8c6,#r8c7,#r8c8{
+width:38px;
+height:38px;
+background-color:grey;
+border:1px solid black;
+float:left;
+ }
+#r7c1,#r7c2,#r7c3,#r7c4,#r7c5,#r6c1{
+width:38px;
+height:38px;
+background-color:red;
+border:1px solid black;
+float:left;
+}
+#r7c0{
+  width:38px;
+height:38px;
+background-color:white;
+border:1px solid black;
+float:left;
+}
+#r7c9,#r7c10,#r7c11,#r7c12,#r7c13,#r7c14{
+width:38px;
+height:38px;
+background-color:yellow;
+border:1px solid black;
+float:left;
+}
+#r7c14,#r0c7{
+  width:38px;
+height:38px;
+background-color:white;
+border:1px solid black;
+float:left;
+}
+#r9c0,#r9c1,#r9c2,#r9c3,#r9c4,#r9c5,#r10c0,#r10c5,#r11c0,#r11c5,#r12c0,#r12c5,#r13c0,#r13c5,#r14c0,#r14c1,#r14c2,#r14c3,#r14c4,#r14c5{
+width:38px;
+height:38px;
+background-color:blue;
+border:1px solid black;
+float:left;
+}
+#r9c7,#r10c7,#r11c7,#r12c7,#r13c7,#r14c7{
+width:38px;
+height:38px;
+background-color:blue;
+border:1px solid black;
+float:left;
+}
+#r14c7{
+  width:38px;
+height:38px;
+background-color:white;
+border:1px solid black;
+float:left;
+}
+#r9c9,#r9c10,#r9c11,#r9c12,#r9c13,#r9c14,#r10c9,#r10c14,#r11c9,#r11c14,#r12c9,#r12c14,#r13c9,#r13c14,#r14c9,#r14c10,#r14c11,#r14c12,#r14c13,#r14c14{
+width:38px;
+height:38px;
+background-color:yellow;
+border:1px solid black;
+float:left;
+}
+#r1c8{
+  width:38px;
+height:38px;
+background-color:green;
+border:1px solid black;
+float:left;
+}
+#r2c2,#r2c3,#r3c2,#r3c3{
+  width:38px;
+height:38px;
+background-color:red;
+border:1px solid black;
+float:left;
+}
+#r2c11,#r2c12,#r3c11,#r3c12{
+  width:38px;
+height:38px;
+background-color:green;
+border:1px solid black;
+float:left;
+}
+#r11c2,#r11c3,#r12c2,#r12c3{
+  width:38px;
+height:38px;
+background-color:blue;
+border:1px solid black;
+float:left;
+}
+#r11c11,#r11c12,#r12c11,#r12c12{
+  width:38px;
+height:38px;
+background-color:yellow;
+border:1px solid black;
+float:left;
+}
+</style>
+</head>
+<body>
+<div id="outer">
+  <div id="r0">
+    <div id="r0c0"></div>
+    <div id="r0c1"></div>
+    <div id="r0c2"></div>
+    <div id="r0c3"></div>
+    <div id="r0c4"></div>
+    <div id="r0c5"></div>
+    <div id="r0c6"></div>
+    <div id="r0c7"></div>
+    <div id="r0c8"></div>
+    <div id="r0c9"></div>
+    <div id="r0c10"></div>
+    <div id="r0c11"></div>
+    <div id="r0c12"></div>
+    <div id="r0c13"></div>
+    <div id="r0c14"></div>
+  </div>
+  <div id="r1">
+    <div id="r1c0"></div>
+    <div id="r1c1"></div>
+    <div id="r1c2"></div>
+    <div id="r1c3"></div>
+    <div id="r1c4"></div>
+    <div id="r1c5"></div>
+    <div id="r1c6"></div>
+    <div id="r1c7"></div>
+    <div id="r1c8"></div>
+    <div id="r1c9"></div>
+    <div id="r1c10"></div>
+    <div id="r1c11"></div>
+    <div id="r1c12"></div>
+    <div id="r1c13"></div>
+    <div id="r1c14"></div>
+  </div>
+  <div id="r2">
+    <div id="r2c0"></div>
+    <div id="r2c1"></div>
+    <div id="r2c2"></div>
+    <div id="r2c3"></div>
+    <div id="r2c4"></div>
+    <div id="r2c5"></div>
+    <div id="r2c6"></div>
+    <div id="r2c7"></div>
+    <div id="r2c8"></div>
+    <div id="r2c9"></div>
+    <div id="r2c10"></div>
+    <div id="r2c11"></div>
+    <div id="r2c12"></div>
+    <div id="r2c13"></div>
+    <div id="r2c14"></div>
+  </div>
+  <div id="r3">
+    <div id="r3c0"></div>
+    <div id="r3c1"></div>
+    <div id="r3c2"></div>
+    <div id="r3c3"></div>
+    <div id="r3c4"></div>
+    <div id="r3c5"></div>
+    <div id="r3c6"></div>
+    <div id="r3c7"></div>
+    <div id="r3c8"></div>
+    <div id="r3c9"></div>
+    <div id="r3c10"></div>
+    <div id="r3c11"></div>
+    <div id="r3c12"></div>
+    <div id="r3c13"></div>
+    <div id="r3c14"></div>
+  </div>
+  <div id="r4">
+    <div id="r4c0"></div>
+    <div id="r4c1"></div>
+    <div id="r4c2"></div>
+    <div id="r4c3"></div>
+    <div id="r4c4"></div>
+    <div id="r4c5"></div>
+    <div id="r4c6"></div>
+    <div id="r4c7"></div>
+    <div id="r4c8"></div>
+    <div id="r4c9"></div>
+    <div id="r4c10"></div>
+    <div id="r4c11"></div>
+    <div id="r4c12"></div>
+    <div id="r4c13"></div>
+    <div id="r4c14"></div>
+  </div>
+  <div id="r5">
+    <div id="r5c0"></div>
+    <div id="r5c1"></div>
+    <div id="r5c2"></div>
+    <div id="r5c3"></div>
+    <div id="r5c4"></div>
+    <div id="r5c5"></div>
+    <div id="r5c6"></div>
+    <div id="r5c7"></div>
+    <div id="r5c8"></div>
+    <div id="r5c9"></div>
+    <div id="r5c10"></div>
+    <div id="r5c11"></div>
+    <div id="r5c12"></div>
+    <div id="r5c13"></div>
+    <div id="r5c14"></div>
+  </div>
+  <div id="r6">
+    <div id="r6c0"></div>
+    <div id="r6c1"></div>
+    <div id="r6c2"></div>
+    <div id="r6c3"></div>
+    <div id="r6c4"></div>
+    <div id="r6c5"></div>
+    <div id="r6c6"></div>
+    <div id="r6c7"></div>
+    <div id="r6c8"></div>
+    <div id="r6c9"></div>
+    <div id="r6c10"></div>
+    <div id="r6c11"></div>
+    <div id="r6c12"></div>
+    <div id="r6c13"></div>
+    <div id="r6c14"></div>
+  </div>
+  <div id="r7">
+    <div id="r7c0"></div>
+    <div id="r7c1"></div>
+    <div id="r7c2"></div>
+    <div id="r7c3"></div>
+    <div id="r7c4"></div>
+    <div id="r7c5"></div>
+    <div id="r7c6"></div>
+    <div id="r7c7"></div>
+    <div id="r7c8"></div>
+    <div id="r7c9"></div>
+    <div id="r7c10"></div>
+    <div id="r7c11"></div>
+    <div id="r7c12"></div>
+    <div id="r7c13"></div>
+    <div id="r7c14"></div>
+  </div>
+  <div id="r8">
+    <div id="r8c0"></div>
+    <div id="r8c1"></div>
+    <div id="r8c2"></div>
+    <div id="r8c3"></div>
+    <div id="r8c4"></div>
+    <div id="r8c5"></div>
+    <div id="r8c6"></div>
+    <div id="r8c7"></div>
+    <div id="r8c8"></div>
+    <div id="r8c9"></div>
+    <div id="r8c10"></div>
+    <div id="r8c11"></div>
+    <div id="r8c12"></div>
+    <div id="r8c13"></div>
+    <div id="r8c14"></div>
+  </div>
+  <div id="r9">
+    <div id="r9c0"></div>
+    <div id="r9c1"></div>
+    <div id="r9c2"></div>
+    <div id="r9c3"></div>
+    <div id="r9c4"></div>
+    <div id="r9c5"></div>
+    <div id="r9c6"></div>
+    <div id="r9c7"></div>
+    <div id="r9c8"></div>
+    <div id="r9c9"></div>
+    <div id="r9c10"></div>
+    <div id="r9c11"></div>
+    <div id="r9c12"></div>
+    <div id="r9c13"></div>
+    <div id="r9c14"></div>
+  </div>
+  <div id="r10">
+    <div id="r10c0"></div>
+    <div id="r10c1"></div>
+    <div id="r10c2"></div>
+    <div id="r10c3"></div>
+    <div id="r10c4"></div>
+    <div id="r10c5"></div>
+    <div id="r10c6"></div>
+    <div id="r10c7"></div>
+    <div id="r10c8"></div>
+    <div id="r10c9"></div>
+    <div id="r10c10"></div>
+    <div id="r10c11"></div>
+    <div id="r10c12"></div>
+    <div id="r10c13"></div>
+    <div id="r10c14"></div>
+  </div>
+  <div id="r11">
+    <div id="r11c0"></div>
+    <div id="r11c1"></div>
+    <div id="r11c2"></div>
+    <div id="r11c3"></div>
+    <div id="r11c4"></div>
+    <div id="r11c5"></div>
+    <div id="r11c6"></div>
+    <div id="r11c7"></div>
+    <div id="r11c8"></div>
+    <div id="r11c9"></div>
+    <div id="r11c10"></div>
+    <div id="r11c11"></div>
+    <div id="r11c12"></div>
+    <div id="r11c13"></div>
+    <div id="r11c14"></div>
+  </div>
+  <div id="r12">
+    <div id="r12c0"></div>
+    <div id="r12c1"></div>
+    <div id="r12c2"></div>
+    <div id="r12c3"></div>
+    <div id="r12c4"></div>
+    <div id="r12c5"></div>
+    <div id="r12c6"></div>
+    <div id="r12c7"></div>
+    <div id="r12c8"></div>
+    <div id="r12c9"></div>
+    <div id="r12c10"></div>
+    <div id="r12c11"></div>
+    <div id="r12c12"></div>
+    <div id="r12c13"></div>
+    <div id="r12c14"></div>
+  </div>
+  <div id="r13">
+    <div id="r13c0"></div>
+    <div id="r13c1"></div>
+    <div id="r13c2"></div>
+    <div id="r13c3"></div>
+    <div id="r13c4"></div>
+    <div id="r13c5"></div>
+    <div id="r13c6"></div>
+    <div id="r13c7"></div>
+    <div id="r13c8"></div>
+    <div id="r13c9"></div>
+    <div id="r13c10"></div>
+    <div id="r13c11"></div>
+    <div id="r13c12"></div>
+    <div id="r13c13"></div>
+    <div id="r13c14"></div>
+  </div>
+  <div id="r14">
+    <div id="r14c0"></div>
+    <div id="r14c1"></div>
+    <div id="r14c2"></div>
+    <div id="r14c3"></div>
+    <div id="r14c4"></div>
+    <div id="r14c5"></div>
+    <div id="r14c6"></div>
+    <div id="r14c7"></div>
+    <div id="r14c8"></div>
+    <div id="r14c9"></div>
+    <div id="r14c10"></div>
+    <div id="r14c11"></div>
+    <div id="r14c12"></div>
+    <div id="r14c13"></div>
+    <div id="r14c14"></div>
+  </div>
+</div></body>
 </html>
