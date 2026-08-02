@@ -1,0 +1,272 @@
+#outer{
+    width: 1000px;
+    height: 1000px;
+    background-color: lightgrey;
+    float: left;
+}
+.style{
+    color:white;
+    margin-left: 5px;
+}
+#imgandroid{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#img2{margin-left: 70px;
+    margin-top: 30px;
+}
+#img3{
+    margin-top: 80px;
+}
+#img4{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+#img5{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#img6{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#img8{
+    margin-left: 5px;
+    margin-top: 50px;
+}
+#img9{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#img10{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#one{
+    width: 500px;
+    height:1000px;
+    float:left;
+
+}
+#two{
+    width: 250px;
+    height:1000px;
+    float:left;
+
+}
+#three{
+    width: 250px;
+    height:1000px;
+    float:left;
+
+}
+#one-1{
+    width: 250px;
+    height: 650px;
+    float: left;
+}
+#google+{
+    width: 490px;
+    height: 340px;
+    float:left;
+}
+#g1{
+    width: 295px;
+    height: 340px;
+    float:left;
+    background-color:white
+}
+#g2{
+    width: 195px;
+    height: 340px;
+    float:left;
+}
+#blogger{
+    width: 240px;
+    height: 290px;
+    float:left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#b1{
+    width: 240px;
+    height: 195px;
+    float:left;
+    background-color:rgb(185, 28, 28);
+}
+#b2{
+    width: 240px;
+    height: 95px;
+    float:left;
+    background-color:rgb(123, 44, 44)
+    
+}
+#chrome{
+    width: 240px;
+    height: 390px;
+    float:left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#c1{
+    width: 240px;
+    height: 295px;
+    float: left;
+    background-color: rgb(99, 11, 11);
+}
+#c2{
+    width: 240px;
+    height: 95px;
+    float:left;
+    background-color:rgb(74, 11, 11);
+}
+#android{
+    width: 240px;
+    height:340px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#a1{
+    width:240px;
+    height:245px;
+    float:left;
+    background-color: rgb(26, 117, 26);
+}
+#a2{
+    width: 240px;
+    height: 95px;
+    float:left;
+    background-color: rgb(23, 101, 23);
+}
+#music{
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: yellow;
+    margin-right: 10px;
+}
+#m1{
+    width: 240px;
+    height: 145px;
+    float:left;
+    background-color: rgb(255, 255, 0);
+}
+#m2{
+    width: 240px;
+    height: 95px;
+    float:left;
+    background-color: rgb(156, 156, 26);
+}
+#email{
+    width: 240px;
+    height: 290px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#e1{
+    width: 240px;
+    height: 195px;
+    float:left;
+    background-color: skyblue;
+}
+#e2{
+    width: 240px;
+    height: 95px;
+    float:left;
+    background-color: rgb(110, 167, 189);
+}
+#news{
+    width: 240px;
+    height: 290px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#n1{
+    width: 240px;
+    height: 195px;
+    float:left;
+    background-color: rgb(44, 202, 187);
+}
+#n2{
+    width: 240px;
+    height: 95px;
+    float:left;
+    background-color: skyblue;
+}
+#earth{
+    width: 240px;
+    height: 390px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#ea1{
+    width: 240px;
+    height: 295px;
+    float:left;
+}
+#ea2{
+    width: 240px;
+    height: 95px;
+    float:left;
+    background-color: rgb(7, 7, 61);
+}
+#maps{
+    width: 250px;
+    height: 390px;
+    float:left;
+    margin-bottom: 10px;
+}
+#ma1{
+    width: 250px;
+    height: 295px;
+    float:left;
+    background-color: yellow;
+}
+#ma2{
+    width: 250px;
+    height: 95px;
+    float:left;
+    background-color: rgb(197, 197, 11);
+}
+#search{
+    width: 250px;
+    height: 290px;
+    float:left;
+    margin-bottom: 10px;
+}
+#s1{
+    width: 250px;
+    height: 195px;
+    float:left;
+    background-color:rgb(20, 71, 133);
+}
+#s2{
+    width: 250px;
+    height: 95px;
+    float:left;
+    background-color: blue;
+}
+#youtube{
+    width: 250px;
+    height: 290px;
+    float:left;
+    margin-bottom: 10px;
+}
+#y1{
+    width: 250px;
+    height: 195px;
+    float:left;
+    background-color: black;
+}
+#y2{
+    width: 250px;
+    height: 95px;
+    float:left;
+    background-color: darkslategrey;
+}
