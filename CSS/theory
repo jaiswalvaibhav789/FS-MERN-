@@ -1,0 +1,22 @@
+//CSS ----
+CSS i s a cascading style sheet which is used for styling the structure of html.
+CSS is developed by sir Hackon Wium Li.
+#Selectors --
+    Selectors are used for select the HTML elements.
+    Types of Selectors -----
+    1. Simple Selectors
+        1.Universal Selectors(*)
+        2.Class Slectors(.)
+        3.Id Selectors (#)
+        4.Tag Selectors
+    2. Combination Selectors
+        1.tag #
+        2.#outer .
+        3.. #
+        4. tag.#
+    3. Pseudo Class Selectors
+        Ex- :hover , :marker , .visited , unvisited , etc.
+    4. Pseudo Elements Selectors
+        Ex - ::after, ::before ,etc.
+    5. Combinator Selectors
+        ~ , +
