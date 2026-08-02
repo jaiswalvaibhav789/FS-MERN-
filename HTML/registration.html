@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+        <h1 align="center">Registration Form for Admission</h1>
+        <form>
+
+
+        <h2>Personal Information</h2>
+           Full Name: <input type="text" name="fullname"><br><br>
+           Father's Name: <input type="text" name="fathername"><br><br>
+           Mother's Name: <input type="text" name="mothername"><br><br>
+           Date of Birth: <input type="date" name="dob"><br><br>
+           Gender:<input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female  
+                    <br><br>
+            Nationality: <input type="text" name="nationality"><br><br>
+            Category: <select name="category">
+                        <option value="general">General</option>
+                        <option value="obc">OBC</option>
+                        <option value="sc">SC</option>
+                        <option value="st">ST</option>
+                    </select><br><br>
+            Sub-Category: <select name="subcategory">
+                        <option value="none">None</option>
+                        <option value="ews">EWS</option>
+                        <option value="pwd">PWD</option>
+                    </select><br><br>
+            Blood Group: <input type="radio" name="bloodgroup" value="A+">A+
+                         <input type="radio" name="bloodgroup" value="A-">A-
+                         <input type="radio" name="bloodgroup" value="B+">B+
+                         <input type="radio" name="bloodgroup" value="B-">B-
+                         <input type="radio" name="bloodgroup" value="AB+">AB+
+                         <input type="radio" name="bloodgroup" value="AB-">AB-
+                         <input type="radio" name="bloodgroup" value="O+">O+
+                         <input type="radio" name="bloodgroup" value="O-">O-<br><br>
+
+
+
+
+            <h2>Contact Information</h2>
+            Mobile Number: <input type="tel" name="mobile" placeholder="Student's Mobile Number"><br><br>
+            Alternate Mobile Number: <input type="tel" name="altmobile" placeholder="Alternate Mobile Number"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Permanent Address: <textarea name="permanentaddress" placeholder="Enter your permanent address"></textarea><br><br>
+            Correspondence Address: <textarea name="correspondenceaddress" placeholder="Enter your correspondence address"></textarea><br><br>
+            State: <input type="text" name="state"><br><br>
+            District: <input type="text" name="district"><br><br>
+            PIN Code: <input type="number" name="pincode"><br><br>
+
+
+
+            <h2>Academic Information</h2>
+            Class 10th Board: <input type="text" name="board10"><br><br>
+            School Name: <input type=""text" name=""schoolname"><br><br>
+            Year of Passing: <input type="number" name="yearofpassing10"><br><br>
+            Roll Number: <input type="text" name="rollnumber10"><br><br>
+            Percentage/CGPA: <input type="number" name="percentage10"><br><br>
+
+            Class 12th Board: <input type="text" name="board12"><br><br>
+            School Name: <input type=""text" name=""schoolname"><br><br>
+            Year of Passing: <input type="number" name="yearofpassing12"><br><br>
+            Roll Number: <input type="text" name="rollnumber12"><br><br>
+            Percentage/CGPA: <input type="number" name="percentage12"><br><br>
+
+            <h2>Entrance Exam Details</h2>
+            JEE Main Roll Number: <input type="number" name="jeemainrollnumber"><br><br>
+            JEE Main Percentile: <input type="number" name="jeemainpercentile"><br><br>
+            JEE MAin Rank: <input type="number" name="jeemainrank"><br><br>
+            CUET Score: <input type="number" name="cuetscore"><br><br>
+
+            <h2>Course Preferences</h2>
+            Branch Preferences: <input type="checkbox" name="branchpreferences" value="cse">Computer Science Engineering
+                                <input type="checkbox" name="branchpreferences" value="ece">Electronics and Communication Engineering
+                                <input type="checkbox" name="branchpreferences" value="mech">Mechanical Engineering
+                                <input type="checkbox" name="branchpreferences" value="civil">Civil Engineering
+                                <input type="checkbox" name="branchpreferences" value="chem">Chemical Engineering<br><br>
+            
+            Mode of Admission: <input type="radio" name="modeofadmission" value="Quota">Management Quota
+                               <input type="radio" name="modeofadmission" value="counselling">Counselling
+                               <input type="radio" name="modeofadmission" value="direct">Direct Admission<br><br>
+
+            <h2>Identity Proof</h2>
+            Aadhar Card Number: <input type="number" name="aadhar"><br><br>
+            PAN Card Number: <input type="text" name="pan"><br><br>
+            ABC ID Number: <input type="text" name="abcid"><br><br>
+
+            <h2>Parent/Guardian Details</h2>
+            Father's Occupation: <input type="text" name="fatheroccupation"><br><br>
+            father's Mobile Number: <input type="tel" name="fathermobile"><br><br>
+            Mother's Occupation: <input type="text" name="motheroccupation"><br><br>
+            Mother's Mobile Number: <input type="tel" name="mothermobile"><br><br>
+            Annual Family Income: <input type="number" name="familyincome"><br><br>
+
+            <h2>Hostel Requirements</h2>
+            Do you want to stay in the hostel? <input type="radio" name="hostel" value="yes">Yes
+                                               <input type="radio" name="hostel" value="no">No<br><br>
+
+            <h2>Medical Details</h2>
+            Any Medical Conditions: <input type="text" name="medicalconditions"><br><br>
+            Allergies: <input type="text" name="allergies"><br><br>
+            Disabilities(if applicable): <input type="text" name="disabilities"><br><br>
+            Emergency Contact Name: <input type="text" name="emergencycontactname"><br><br>
+            Emergency Contact Number: <input type="tel" name="emergencycontactnumber"><br><br>
+
+            <h2>Documents to Upload</h2>
+            <!-- Passport-size Photograph
+Student Signature
+10th Marksheet
+12th Marksheet
+Transfer Certificate (TC)
+Migration Certificate
+Character Certificate
+Aadhaar Card
+Category Certificate (if applicable)
+Income Certificate (if applicable)
+Domicile Certificate (if applicable)
+JEE Scorecard (if applicable) -->
+                    
+            Passport-size Photograph: <input type="file" name="passportphoto"><br><br>
+            Student Signature: <input type="file" name="studentsignature"><br><br>
+            10th Marksheet: <input type="file" name="marksheet10"><br><br>
+            12th Marksheet: <input type="file" name="marksheet12"><br><br>
+            Transfer Certificate (TC): <input type="file" name="tc"><br><br>
+            Migration Certificate: <input type="file" name="migrationcertificate"><br><br>
+            Character Certificate: <input type="file" name="charactercertificate"><br><br>
+            Aadhaar Card: <input type="file" name="aadhaarcard"><br><br>
+            Category Certificate (if applicable): <input type="file" name="categorycertificate"><br><br>
+            Income Certificate (if applicable): <input type="file" name="incomecertificate"><br><br>
+            Domicile Certificate (if applicable): <input type="file" name="domicilecertificate"><br><br>
+            JEE Scorecard (if applicable): <input type="file" name="jeescorecard"><br><br>
+
+            <h2>Declaration</h2>
+            I hereby declare that the information provided above is true and correct to the best of my knowledge.<br><br>
+
+            Signature of Applicant: <input type="text" name="applicantsignature"><br><br>
+
+            <input type="submit" value="Submit">
+
+
+
+
+
+
+            
+
+        </form>
+    </body>
+</html>
